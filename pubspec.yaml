@@ -1,7 +1,7 @@
 name: my_groceries
 description: A new Flutter project.
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
 
@@ -13,13 +13,16 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  flutter_sticky_header: ^0.5.0
+  freezed: ^0.12.7
+  hive: ^1.4.4+1
+  provider: ^4.3.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 flutter:
-
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
